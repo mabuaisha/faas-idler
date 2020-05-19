@@ -8,7 +8,7 @@ services:
             gateway_url: "http://gateway:8080/"
             prometheus_host: "prometheus"
             prometheus_port: "9090"
-            inactivity_duration: "15m"
+            inactivity_duration: "5m"
             reconcile_interval: "30s"
         command: "-dry-run=false"
         deploy:
